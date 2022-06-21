@@ -30,7 +30,7 @@ public class Bank {
 		return accounts;
 	}
 }
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 package bank;
 
@@ -83,8 +83,6 @@ public class BankAccount {
 	}
 }
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------
-
 package bank;
 
 import java.util.Scanner;
@@ -93,7 +91,7 @@ public class MainClass {
 	static Bank b = new Bank();
 	
 	static void showMenu() {
-		System.out.println("Welcome to Bank");
+		System.out.println("Welcome to  Banking system");
 	}
 
 	public static void main(String[] args) {
@@ -183,7 +181,7 @@ public class MainClass {
 			}
 		}while(choice != 0);
 		scanner.close();
-		System.out.println("Closing bank application");
+		System.out.println("Thank you for  banking with us");
 	}
 
 }
